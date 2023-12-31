@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsArrowLeft } from "react-icons/bs";
@@ -150,7 +151,7 @@ const Checkout = () => {
                             <div className="checkout-product py-3 d-flex align-items-center justify-content-between gap-15">
                                 <div className="checkout-product-img ">
                                     <img
-                                        className="img-fluid "
+                                        className="img-fluid"
                                         src={tab}
                                         alt="Image"
                                     />
