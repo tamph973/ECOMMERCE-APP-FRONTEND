@@ -83,10 +83,10 @@ const Checkout = () => {
                                     </div>
                                     <div className="d-flex align-items-center gap-15 justify-content-between">
                                         <select
-                                            class="form-select form-control w-100 form-floating"
+                                            className="form-select form-control w-100 form-floating"
                                             name="address"
-                                            id="address">
-                                            <option selected disabled>
+                                            id="address" defaultValue="selected" >
+                                            <option value="selected" disabled>
                                                 Select Province/City
                                             </option>
                                             <option value="">New Delhi</option>
@@ -94,10 +94,11 @@ const Checkout = () => {
                                             <option value="">Jakarta</option>
                                         </select>
                                         <select
-                                            class="form-select form-control w-100 "
+                                            className="form-select form-control w-100 "
                                             name="address"
-                                            id="address">
-                                            <option selected disabled>
+                                            id="address" defaultValue="selected">
+                                            
+                                            <option value="selected" disabled>
                                                 Select District
                                             </option>
                                             <option value="">New Delhi</option>
@@ -105,10 +106,10 @@ const Checkout = () => {
                                             <option value="">Jakarta</option>
                                         </select>
                                         <select
-                                            class="form-select form-control w-100 "
+                                            className="form-select form-control w-100 "
                                             name="address"
-                                            id="address">
-                                            <option selected disabled>
+                                            id="address" defaultValue="selected">
+                                            <option value="selected"  disabled>
                                                 Select Ward/Commune
                                             </option>
                                             <option value="">New Delhi</option>

@@ -340,7 +340,7 @@ const OurStore = () => {
                                             name=""
                                             id=""
                                             className="form-control form-select"
-                                            defaultValue="best-selling">
+                                            defaultValue="manual">
                                             <option value="manual">
                                                 Featured
                                             </option>

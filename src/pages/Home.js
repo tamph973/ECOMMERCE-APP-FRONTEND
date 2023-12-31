@@ -228,7 +228,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-12">
                         <p className="section-heading"></p>
-                    </div>  
+                    </div>
                     <div className="col-4">
                         <div className="famous-card">
                             <div className="famous-content">
@@ -371,10 +371,10 @@ const Home = () => {
                                     <img src="/images/brand-05.png" alt="" />
                                 </div>
                                 <div className="mx-3 w-25">
-                                    <img src="/images/brand-06png" alt="" />
+                                    <img src="/images/brand-06.png" alt="" />
                                 </div>
                                 <div className="mx-3 w-25">
-                                    <img src="/images/brand-07png" alt="" />
+                                    <img src="/images/brand-07.png" alt="" />
                                 </div>
                                 <div className="mx-3 w-25">
                                     <img src="/images/brand-08.png" alt="" />
