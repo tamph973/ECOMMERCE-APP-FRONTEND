@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import MetaTitle from "../components/MetaTitle";
